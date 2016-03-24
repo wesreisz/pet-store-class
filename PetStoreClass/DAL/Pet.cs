@@ -16,8 +16,6 @@ namespace PetStoreClass.DAL
     {
         public decimal PetID { get; set; }
 
-        [Required()]
-        [Display(Name ="Pet Name")]
         public string PetName { get; set; }
         public string PetDescription { get; set; }
         public decimal PetPrice { get; set; }
